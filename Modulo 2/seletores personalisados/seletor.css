@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* tudo que em HTML e Id, em CSS e #(so pode um elemento por pagina) */
+/* tudo que em HTML e Class, em CSS e .(pode varios) */
+
+body{background-color: rgba(172, 255, 47, 0.493);}
+
+h1{color: green;}
+
+#principal{
+
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.822);
+}
+
+
+h2{color: rgba(2, 53, 2, 0.74);}
+
+.basic{
+
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.inter{text-align: center;
+    color: crimson;
+
+}
+
+.ava{text-align: center;
+color: slategray;
+ }
+
+
+p{text-align: justify;
+/* font-weight:*/ }
+
+.negrito{font-weight: bold;
+background-color: rgb(48, 233, 72)}

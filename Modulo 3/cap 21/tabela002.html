@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<link rel="stylesheet" href="">
+<style>
+
+    body{
+
+        font-family: monospace;
+
+    }
+
+    table{
+
+        width: 400px;
+        border-collapse: collapse;
+
+    }
+
+
+    td,th{
+        border: 1px solid black;
+        padding: 10px;
+        
+
+    }
+
+    thead,tfoot{
+
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: gray;
+        color: white;
+
+    }
+
+    td.num{
+
+        text-align: right;
+
+    }
+
+    caption{
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 8px;
+        background-color: lightgray;
+
+    }   
+
+    tbody > tr:nth-child(even){ /*2n-1*/
+
+        background-color: lightgray;
+        font-weight: bold; 
+
+    }
+
+    tbody > tr:nth-child(odd){/*2n*/
+
+        background-color: green;
+
+    }
+
+</style>
+</head>
+<body>
+
+    <h1 align="center">Uso de tabelas grandes</h1>
+
+    <!-- Anatomia para tabelas grandes
+    TABLE
+        CAPTION
+        THEAD
+
+            TR,TD,TH
+            
+        TBODY
+            TR,TD,TH
+
+        TFOOT
+            TR,TD,TH
+    
+    -->
+
+    <Table>
+        <caption>
+
+                Populacao das Unidades Federtivas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">Populacao</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">45 9219 049</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">45 9219 049</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">45 9219 049</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">45 9219 049</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">21 168 791</td>
+            </tr>
+
+
+
+        
+
+
+        </tbody>
+
+
+
+
+        <tfoot>
+
+            
+                <tr>
+
+                    <th scope="row">Total de Habitantes </th>
+                    
+                    <td class="num"><strong>219 928 287</strong></td>
+
+                </tr>
+
+
+
+        </tfoot>
+
+    </Table>
+     
+
+
+<script></script>
+<script src=""></script>
+</body>
+</html>

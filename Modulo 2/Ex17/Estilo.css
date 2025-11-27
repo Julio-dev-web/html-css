@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000000;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ring{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring i{
+    position: absolute;
+    inset: 0;
+    border: 2px solid #ffffff;
+    transition: 0.5s;
+}
+
+.ring i:nth-child(2){
+    border-radius: 41% 44% 56% 59%/38% 62% 63% 37%;
+    animation: animate 4s linear infinite;
+}
+
+.ring i:nth-child(3){
+    border-radius: 41% 44% 56% 59%/38% 62% 63% 37%;
+    animation: animate2 10s linear infinite;
+}
+
+.ring:hover i{
+    border: 6px solid var(--color, #fff); /* Default color if not set */
+    filter: drop-shadow(0 0 20px var(--color, #fff));
+}
+
+@keyframes animate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+@keyframes animate2{
+    0%{transform: rotate(360deg);}
+    100%{transform: rotate(0deg);}
+}
+
+.login{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1; 
+}
+
+.login h2{
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.login .inputBox{
+    position: relative;
+    width: 100%;
+}
+
+.login .inputBox input{
+    position: relative;
+    width: 100%;
+    padding: 12px 20px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    font-size: 1.2em;
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+}
+
+.login .inputBox input[type="submit"]{
+    width: 100%;
+    background: #e6eaf0;
+    background: linear-gradient(45deg, #ff357a, #fff172);
+    border: none;
+    cursor: pointer;
+}
+
+.inputBox input::placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.login .links{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    pad: 0 20px;
+}
+
+.login .links a{
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+    <style>div{
+    
+    display: inline-flex;
+    
+    background-color: turquoise;
+    text-align: center; 
+
+    height: 200px; /*altura */
+
+    width:200px;/* largura*/
+
+    border:1px
+     solid black ;/*borda*/
+
+    }
+
+    div:hover{background-color: rgb(255, 255, 255);}
+
+    .d1{background-color: blue;}
+    .d2{background-color: red;}
+    .d3{background-color: green;}
+
+    .hover >p {display: none;}
+    .hover:hover>p{display: block;}
+
+    .hover:hover{background-color: brown;}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="d1">01</div>
+    <div class="d2">02</div>
+    <div class="d3">03</div>
+
+
+    <div class="hover">Passe o dedo aqui
+        
+    <p>Texto escondido</p>
+
+</div>
+    
+</body>
+</html>
+
+<!-- As pseudo classes devem estar relacionadas a um elemento ou a uma classe
+ 
+pseudo classes sao relacionadas ao estado de uma classe/elemento
+
+: se ela esta ativa, marcada, vazia, habilitado,etc.
+
+:hover - passando o mause por cima e muda a cor
+
+-->
