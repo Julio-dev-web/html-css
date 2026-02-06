@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<link rel="stylesheet" href="">
+<style></style>
+</head>
+<body>
+
+    <h1>Ex de form </h1>
+
+    <form action="cadastro.php" method="get">
+
+
+        <p>
+
+            <label for="iest">Estado </label>
+                <select name="" id="iest">
+
+                    <option value="" selected>--- Escolha ---</option>
+
+                    <optgroup label="Brasil">
+                        
+                        <option value="SP">Sao Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+
+                    </optgroup>
+
+                    <optgroup label="Moz">
+                        <option value="MP">Maputo</option>
+                        <option value="GZ">Gaza</option>
+                        <option value="ZB">Zambeze</option>
+                    </optgroup>
+
+
+                </select>
+            
+        </p>
+
+
+        <p>
+            
+            <label for="iprof">Profissao:</label>
+            <input type="text" name="" id="iprof" list="lstprof">
+            <datalist id="lstprof" >
+                <option >Desenvolvedor Web</option>
+                <option >Contabilista</option>
+                <option >Professor</option>
+
+
+            </datalist>
+        
+        </p>
+
+
+        <p>
+
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        </p>
+           
+
+             <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </p>
+        </form>
+
+
+
+
+<script></script>
+<script src=""></script>
+</body>
+</html>
