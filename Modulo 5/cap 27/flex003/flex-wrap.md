@@ -1,6 +1,6 @@
 # FLEX-WRAP
 
-Configura o comportamento do container(pai), por padrao ele esta configurado como 'nowrap:'
+Configura o comportamento do container(pai), por padrão ele esta configurado como 'nowrap:'
 
 
 1. Flex - wrap : nowrap;
