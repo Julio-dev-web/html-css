@@ -1,8 +1,8 @@
 # FLEX DIRECTION
 
-Configuracoes do conteiner (pai)
+Configurações do container (pai)
 
-Existem 4 configuracoes permitidas para o FLD
+Existem 4 configurações permitidas para o FLD
 
 1. Flex - direction : row;
 [#esquerda#para#direita]
