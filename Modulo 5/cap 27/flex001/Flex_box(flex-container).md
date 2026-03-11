@@ -1,16 +1,16 @@
 <-------------------------->
 <-------------------------->
- # INTRODUCAO A FLEX BOX
+ # INTRODUÇÃO AO FLEX BOX
 <-------------------------->
 <-------------------------->
 
-Qual o formato da agua?
+Qual o formato da água?
 Vai depender do  conteudo e container(ELEMENTO PAI)
 
 
 
 
- *flex: auto;* --->  Preenche todo espaco do container.
+ *flex: auto;* --->  Preenche todo espaço do container.
 
  
 

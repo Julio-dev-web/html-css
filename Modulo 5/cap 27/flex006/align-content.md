@@ -1,9 +1,9 @@
-### ALINHAMENTO DE CONTEUDO IMPACOTADO ####
+### ALINHAMENTO DE CONTEÚDO IMPACOTADO ####
 
 <align-content: 
-    Alinha os elementos do eixo transversal(cross-axis)mas quando eles estao empacotados
+    Alinha os elementos do eixo transversal(cross-axis)mas quando eles estão empacotados
 
->stretch; (por padrao)
+>stretch; (por padrão)
 >flex-start;
 >flex-end;
 >center;

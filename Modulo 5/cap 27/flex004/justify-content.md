@@ -1,6 +1,6 @@
 # JUSTIFY-CONTENT
 
-    Vai fazer o alinhamento em relacao 
+    Vai fazer o alinhamento em relação 
     ao eixo principal (main-axis)
 
 
@@ -9,7 +9,7 @@
 > flex-end
 > center
 
-Alinhamento de espacamento
+Alinhamento de espaçamento
 <Justify-content:
 
 > space-between

@@ -1,11 +1,11 @@
 # ALIGN-ITEMS
 
-     Vai fazer o alinhamento em relacao ao eixo transversal (cross-axis)
+     Vai fazer o alinhamento em relação ao eixo transversal (cross-axis)
 
 
 <align-items:
 
-> stretch (valor padrao)
+> stretch (valor padrão)
 > flex-start
 > flex-end
 > center
