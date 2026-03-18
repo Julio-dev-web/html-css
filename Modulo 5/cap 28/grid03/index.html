@@ -7,19 +7,36 @@
 <link rel="stylesheet" href="">
 <style>
 
+
     .container{
 
         border: 3px solid blue;
         display: grid;
-        height: 250px;
-        grid-template-columns: auto auto auto ;
-        grid-template-rows: auto auto auto ;
-        gap:5px;
+
+        grid-template-rows:repeat(3, 80px) ;
+        grid-template-columns:1fr 3fr 1fr;  
+
+
+        grid-auto-rows: 80px;
+
+        /* place-items:start normal ;*/
+        align-items:normal ;
+        justify-items:normal;
+
+        /*place-content: start normal ; */
+        align-content:normal ;
+        justify-content:notmal ;
+
+
+
+        gap:10px;
+        
 
     }
     .item{
 
         border: 3px solid red;
+        padding: 5px;
 
     }
 
@@ -27,7 +44,6 @@
 </style>
 </head>
 <body>
-
 
     
     <div class="container">
@@ -40,10 +56,14 @@
         <div class="item">F</div>
         <div class="item">G</div>
         <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
     
     
     
     </div>
+
+
 
 
 <script></script>

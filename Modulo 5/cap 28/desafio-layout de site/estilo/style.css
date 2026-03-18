@@ -1,0 +1,70 @@
+*{
+
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.container{
+    
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 80px 40px 1fr 40px   / 1fr 150px ;
+    gap: 5px;
+
+}
+
+
+header{
+
+    background-color: #FDFF00;
+    grid-area:1/1/2/3 ;
+    text-align: center;
+
+}
+
+nav{
+
+    background-color: #FF007D;
+    grid-area: 2/1/3/3;
+    text-align: center;
+
+}
+
+
+main{
+
+    background-color: #0200FF;
+    grid-area: 3/1/4/2;
+    text-align: center;
+
+
+}
+
+aside{
+
+
+    background-color: #00FF82;
+    grid-area:3/2/4/3;
+    text-align: center;
+
+}
+
+
+footer{
+
+    background-color: gray ;
+    grid-area:4/1/5/3 ;
+    text-align: center;
+
+}
+
+.caixa{
+
+    padding: 10px;
+}
